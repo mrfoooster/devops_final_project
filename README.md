@@ -22,4 +22,5 @@ Terraform: In this instance, terraform has been used to provide provision for th
 
 Kubernetes: In order to create the neccesary files: npm, kubectl, minikube, Docker and NodeJs has to be installed.
 
-            
+GitLab: Raw files have been provided in the main_branch seciton. 
+https://gitlab.com/foster5/koko-project-2  for pipeline control.
