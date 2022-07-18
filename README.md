@@ -8,15 +8,15 @@ Docker: Dockerfile is composed of a default ReactJs file built with "npm'. Alpin
         
         https://hub.docker.com/repository/docker/mrfoooster/docker-react .   Link for the open source.
         
-        Image has been uploaded to AWS server in ECS FARGATE based on London. 
+Image has been uploaded to AWS server in ECS FARGATE based on London. 
         
-        For this process:
-          Firstly a security group has been created in EC2.
-          Secondly, a load balancer has been created, required options has to be selected based on our Docker Image.
-          Thirdly, a cluster has been created in ECS. Followed by a task definon.
-          After these stages, our service is created based on the previus points. As requested, an alarm has been set for the CPU usage if it goes %50 or             %20. 
+For this process:
+Firstly a security group has been created in EC2.
+Secondly, a load balancer has been created, required options has to be selected based on our Docker Image.
+Thirdly, a cluster has been created in ECS. Followed by a task definon.
+After these stages, our service is created based on the previus points. As requested, an alarm has been set for the CPU usage if it goes %50 or             %20. 
           
-          A bash script has been written for emergency alerts in case CPU rises above %90 usage.
+ A bash script has been written for emergency alerts in case CPU rises above %90 usage.
 
 Terraform: In this instance, terraform has been used to provide provision for the created AWS cluster as an instence. 
 
