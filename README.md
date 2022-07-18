@@ -1,6 +1,6 @@
 ##
 Publisher: Mert Cem Tatar
-
+Project: Patika DevOps Bootcamp 2022 180 Final Project
 Used Technologies: Docker, Kubernetes, GitLab, AWS, Terraform
 
 Docker: Dockerfile is composed of a default ReactJs file built with "npm'. Alpine used as a base to lower the initial size of it. 
