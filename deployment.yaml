@@ -1,0 +1,19 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: docker-react
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: docker-react
+  template:
+    metadata:
+      labels:
+        app: docker-react
+    spec:
+      containers:
+      - name: docker-react
+        image: mrfoooster/docker-react
+        ports:
+        - containerPort: 3000
